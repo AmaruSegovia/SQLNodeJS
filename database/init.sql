@@ -11,9 +11,3 @@ CREATE TABLE IF NOT EXISTS customer (
   address VARCHAR(100) NOT NULL,
   phone VARCHAR(15)
 );
-docker
--- to show all tables
-SHOW TABLES;
-
--- to describe table
-DESCRIBE customer;
